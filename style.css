@@ -1,0 +1,230 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.bhr{
+    width: 100%;
+    height: 1022px;
+    background-image: url("header.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+} 
+.bhr__content{
+    width:100%; 
+    max-width:80%; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93.8%;
+    
+}
+li{
+    display: inline-block;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
+}
+.bhr__footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5474FD;
+    width: 100%;
+    height: calc(100%-93.8%) ;
+    font-size: 15px;
+    margin: auto;
+}
+.bhr__low{
+    justify-self: flex-end;
+}
+.bhr__title{
+}
+.bhr__search{
+    background-color: white;
+    
+    
+}
+.search{
+    background-color: #5474FD;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+.bhr__search input {
+    height: 50px;
+    width: 400px;
+}
+.bhr__subtitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+.whyus{
+    width: 100%;
+    height: 1022px;
+    background-image: url("why-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    position: relative;
+
+}
+img{
+    width: 280px;
+}
+.whyus_img01{
+    position: absolute;
+    right: 26%;
+    top: 13%;
+}
+.whyus_img02{
+    position: absolute;
+    right: 18%;
+    top: 31%;
+}
+.whyus_header{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-family: 'Aleo', serif;
+}
+.explore{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    width: 200px;
+    background-color: #5474FD;
+    color: white;
+    height: 50px;
+}
+.first,.second{
+    width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.grand01{
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    background-image: url("grand-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.grand01_main{
+    background-color: #333333;
+    opacity: 0.9;
+    height: 371px;
+    width: 450px;
+    position: relative;
+    margin-left: 200px;
+    
+}
+.grand_main__subtitle {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 30px; 
+}
+.grand_main__title {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0; 
+}
+.book{
+    background-color: #5474FD;
+    color: white;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.grand02{
+    height: 700px;
+    width: 100%;
+    background-image: url("grand-bg2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.grand02_main{
+    background-color: #333333;
+    opacity: 0.9;
+    height: 371px;
+    width: 450px;
+    position: relative;
+    margin-left: 200px;
+    
+}
+
+.imagebtn{
+    width: 60px;
+}
+.caption {
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-family: 'Aleo', serif;
+    text-align: center;
+}
+.whyus_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 337px;
+}
+
+.test {
+    background-image: url(whatt-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column; }
+  
